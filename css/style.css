@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+}
+#top {
+    position: fixed;
+    height: 3em;
+    width: 450px;
+    padding: 0 1em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    filter: drop-shadow(5px 5px 6px rgba(255, 255, 255, 0.664));
+    z-index: 2;
+}
+h1 {
+    font-family: 'Bangers', cursive;
+}
+#search-btn {
+    background-color: white;
+}
+.supremeify {
+    background-color: rgb(255, 0, 0);
+    color: white;
+}
+#searchresult {
+    display: flex;
+    flex-wrap: wrap;
+}
+.meal-container {
+    display: inline-flex;
+    position: relative;
+    width: calc(100% / 3);
+    margin: 0;
+    padding: 0;
+}
+.meal-name-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 0, 0, 0.452);
+    color: rgb(255, 255, 255);
+}
+.meal-name {
+    margin: 0.6em 1em;
+}
+.thumbnail-img {
+    width: 100%;
+}
